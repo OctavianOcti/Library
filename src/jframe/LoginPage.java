@@ -193,7 +193,9 @@ public class LoginPage extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void rSMaterialButtonCircle2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rSMaterialButtonCircle2ActionPerformed
-
+           SignupPage page=new SignupPage();
+           page.setVisible(true);
+           dispose();
 
     }//GEN-LAST:event_rSMaterialButtonCircle2ActionPerformed
 
